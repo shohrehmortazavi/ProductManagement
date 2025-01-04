@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Domain", "ProductManagement.Domain\ProductManagement.Domain.csproj", "{5A323192-98A3-4421-B375-0664598AF0D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Domain", "ProductManagement.Domain\ProductManagement.Domain.csproj", "{5A323192-98A3-4421-B375-0664598AF0D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Api", "ProductManagement.Api\ProductManagement.Api.csproj", "{09580861-EE56-42BD-9E85-495CCA99BF9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Api", "ProductManagement.Api\ProductManagement.Api.csproj", "{09580861-EE56-42BD-9E85-495CCA99BF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Application", "ProductManagement.Application\ProductManagement.Application.csproj", "{B12FE601-4D4D-48AA-A662-C1BF32943214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Application", "ProductManagement.Application\ProductManagement.Application.csproj", "{B12FE601-4D4D-48AA-A662-C1BF32943214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Infrastructure", "ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj", "{76F93F40-F9A9-4FE5-9595-4965D18AB3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Infrastructure", "ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj", "{76F93F40-F9A9-4FE5-9595-4965D18AB3FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagement.Domain.Tests", "ProductManagement.Domain.Tests\ProductManagement.Domain.Tests.csproj", "{CA1C81DB-D6D6-49B0-A3C5-CEF28E2705F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76F93F40-F9A9-4FE5-9595-4965D18AB3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F93F40-F9A9-4FE5-9595-4965D18AB3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F93F40-F9A9-4FE5-9595-4965D18AB3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1C81DB-D6D6-49B0-A3C5-CEF28E2705F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1C81DB-D6D6-49B0-A3C5-CEF28E2705F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1C81DB-D6D6-49B0-A3C5-CEF28E2705F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1C81DB-D6D6-49B0-A3C5-CEF28E2705F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
